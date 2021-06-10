@@ -1,7 +1,7 @@
 .scs-container {
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
+  flex-direction: column;
   margin: auto;
   max-width: 70%;
   flex-wrap: wrap;
@@ -11,13 +11,20 @@
     justify-content: space-between;
     margin: auto;
     align-items: center;
-
+    overflow: hidden;
   }
+  @include lg {
+    margin-left: 260px;
+  }
+
 }
 
 .tree-score {
+  max-width: 200px;
+  max-height: 150px;
   @include xl {
     min-width: 10vw;
+    flex-shrink: 0;
   }
 }
 
@@ -30,13 +37,14 @@
 
 .net-wrap {
   @include xl {
-    margin: auto;
+    margin: 30px 25px 0px 0px;
   }
 }
 .scs-head {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100vw;
   border-bottom: 2px solid gray;
   @include xl {
     padding-bottom: 25px;
@@ -90,7 +98,7 @@ ul {
   .bar3 {
     background-color: black;
   }
-  @include xl {
+  @include lg {
     display: none;
   }
 }

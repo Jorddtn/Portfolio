@@ -4,9 +4,11 @@
   margin: 5% 0% 5% 0%;
   @include xl {
     width: 100%;
-    position: relative;
     text-align: center;
-    margin-right: 30%;
+    margin-right: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 
   }

@@ -77,7 +77,7 @@ $screen-xl-min: 1200px;
 .initial-container {
   margin-left: 5%;
   margin-top: 5%;
-  padding: 3% 3% 2% 2%;
+  padding: 3% 3% 3% 3%;
   color: white;
   font-size: 3rem;
   width: 50px;
@@ -105,12 +105,12 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background: #6649b8;
 }
-// MEDIA QUERIES
-
-
-
-
-
+// BLANK SPACE AT BOTTOM OF PAGE
+.bottom-space {
+  height: 5vh;
+  width: 100vw;
+  background-color: white;
+}
 
 @import 'hamburger.scss',
         'typewriter.scss',

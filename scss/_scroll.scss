@@ -21,6 +21,10 @@
   margin-top: 0;
     color: white;
     align-self: flex-end;
+    @include xl {
+        margin-left: 240px !important;
+        margin-top: 100px;
+    }
 }
 
 .to-top {
@@ -33,12 +37,16 @@
 .to-top-wrap {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-right: 20%;
+  align-self: center;
 }
 
 .no-link,
 .no-link:visited {
   color: black;
 
+}
+
+.down-link {
+  text-decoration: none;
+  color: white;
 }

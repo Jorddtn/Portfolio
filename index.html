@@ -16,27 +16,33 @@
 
 </head>
   <body>
+    <!--SIDEBAR-->
     <div class="sidebar-wrap">
     <div class="sidenav">
-      <h1 class="initial-head-nav" id="top-page"> JM </h1>
+      <a href="index.html" class="logo-link">
+        <h1 class="initial-head-nav" id="top-page"> JM </h1>
+      </a>
       <a href="about.html"> About Me</a>
-      <a href="#"> My Portfolio </a>
+      <a href="#cards-head"> My Portfolio </a>
       <a href="code.html"> Coding Examples </a>
       <a href="scs.html"> SCS Scheme </a>
       <span class="line-side"> </span>
-      <a href="#" class="contact-side"> Contact Me </a>
+      <a href="#contact-jump" class="contact-side"> Contact Me </a>
       <div class="contact-buttons">
-        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-1x"></i></a>
-        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter fa-1x"></i></a>
+        <a href="https://www.linkedin.com/in/jordan-mardel-2648321a4/"><i class="fab fa-linkedin fa-1x"></i></a>
+        <a href="https://twitter.com/MardelJordan" target="_blank"><i class="fab fa-twitter fa-1x"></i></a>
         <a href="mailto:jordanmardel19@gmail.com" target="_blank"><i class="fas fa-envelope fa-1x"></i></a>
       </div>
     </div>
     </div>
-
+    <!--SIDEBAR END-->
+    <!-- TOP BAR FOR MOBILE AND HERO CONTAINER -->
       <div class="hero-container">
         <div class="top-bar">
           <div class="initial-container">
-            <h1 class="initial-head" id="top-page"> JM </h1>
+            <a href="index.html">
+              <h1 class="initial-head" id="top-page"> JM </h1>
+            </a>
           </div>
 
           <div class="hamburger-container" onclick="myFunction(this)">
@@ -52,12 +58,14 @@
           </div>
         </div>
           <div class="scroll-wrap">
-            <p class="scroll-text"> Scroll Down </p>
+            <a href="#cards-head" class="down-link"><p class="scroll-text"> Scroll Down </p>
             <span class="scroll-down">
-              <a href="#work-cards"><i class="fas fa-chevron-down fa-5x"></i></a>
+              <a href="#cards-head"><i class="fas fa-chevron-down fa-3x"></i></a>
             </span>
           </div>
       </div>
+      <!-- TOP MOBILE BAR END AND HERO CONTAINER END -->
+      <!-- CARDS START/PORTFOLIO -->
       <div class="work-cards" id="work-cards">
         <h1 class="cards-head" id="cards-head"> My most recent projects. </h1>
         <div class="project-card-1">
@@ -91,8 +99,10 @@
           <p class="placeholder-text-body"> A project where I recreated the Netmatters homepage </p>
         </div>
       </div>
+      <!-- CARDS SECTION ENDS -->
+      <!-- CONTACT ME SECTION -->
       <div class="contact-container">
-        <h1 class="contact-head"> Contact Me </h1>
+        <h1 class="contact-head" id="contact-jump"> Contact Me </h1>
         <p class="contact-text"> Please feel free to contact me any time using the options below. <br> <br>
           Telephone: 07946027660 <br> <br>
 
@@ -107,10 +117,12 @@
         </form>
         <div class="to-top-wrap">
         <div class="to-top">
-          <a href="#top" class="no-link"><i class="fas fa-chevron-up fa-5x"></i></a>
+          <a href="#top" class="no-link"><i class="fas fa-chevron-up fa-3x"></i></a>
           <p class="to-top-text"> Back to top </p>
         </div>
       </div>
+    </div>
+    <div class="bottom-space">
     </div>
   </body>
 </html>

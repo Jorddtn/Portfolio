@@ -4,6 +4,9 @@
   @include lg {
     margin-left: 20%;
   }
+  @include xl {
+    margin-left: 190px;
+  }
 }
 
 .contact-head {
@@ -52,6 +55,11 @@
   border: 1px solid black;
   font-size: 1.25rem;
   text-transform: capitalize;
-  background-color: #F8F8FF;
+  background-color: #D3D3D3;
   margin-bottom: 50px;
+}
+
+.submit-button:hover {
+  background-color: #107896;
+  color: white;
 }
