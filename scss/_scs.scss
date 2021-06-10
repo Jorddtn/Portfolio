@@ -1,0 +1,103 @@
+.scs-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: auto;
+  max-width: 70%;
+  flex-wrap: wrap;
+  @include xl {
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+
+  }
+}
+
+.tree-score {
+  @include xl {
+    min-width: 10vw;
+  }
+}
+
+.tree-order {
+  @include xl {
+  display: flex;
+  flex-direction: row;
+}
+}
+
+.net-wrap {
+  @include xl {
+    margin: auto;
+  }
+}
+.scs-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid gray;
+  @include xl {
+    padding-bottom: 25px;
+
+  }
+}
+
+.scs-wrap,
+.treehouse-wrap,
+.net-wrap {
+  @include xl {
+    max-width: 30vw;
+  }
+}
+
+.treehouse-wrap {
+  @include xl {
+
+  }
+}
+.scs-head {
+  margin-top: 30px;
+  color: #107896;
+  margin-bottom: 30px;
+  letter-spacing: .4px;
+}
+
+.scs-desc {
+  margin-bottom: 30px;
+}
+
+.intro-head,
+.tree-head,
+.netmatters-head {
+  color: #107896;
+  font-size: 1.5rem;
+  text-align: left;
+  margin: 10px 0px 20px 0px;
+}
+
+ul {
+  list-style: inside;
+  list-style-type: disc;
+
+}
+
+.hamburger-container-about {
+  margin-right: 10px;
+  .bar1,
+  .bar2,
+  .bar3 {
+    background-color: black;
+  }
+  @include xl {
+    display: none;
+  }
+}
+
+
+.hamburger-flex {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
